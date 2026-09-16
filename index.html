@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入 Google Fonts 字型 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="page-container">
+
+        <!-- 👤 1. Profile 區塊 -->
+        <header class="card profile-card">
+            <div class="avatar-wrapper">
+                <img src="avatar.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="profile-info">
+                <span class="badge">Student Developer</span>
+                <h1 class="name">蘇恩平</h1>
+                <p class="department">資訊工程學系 / Web & AI 開發專長</p>
+                <p class="bio">
+                    你好！我是蘇恩平。熱衷於軟體開發、多媒體與多模態與機器學習。這是我的第一個 GitHub Pages 個人網站！
+                </p>
+            </div>
+        </header>
+
+        <!-- 🕐 4. Live Clock 區塊 -->
+        <section class="card clock-card">
+            <div class="clock-header">
+                <span id="greeting" class="greeting">Good Morning!</span>
+                <span id="timezone" class="timezone">Asia/Taipei</span>
+            </div>
+            <div class="clock-display">
+                <span id="clock" class="clock-time">00 : 00 : 00</span>
+            </div>
+            <div class="clock-footer">
+                <span id="date" class="date-text">2026 年 09 月 16 日 星期三</span>
+                <button id="toggle-format" class="btn-toggle">切換 12H / 24H</button>
+            </div>
+        </section>
+
+        <!-- 🛠 2. Skills 區塊 -->
+        <section class="card skills-card">
+            <h2 class="section-title">🛠 專業技能 Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span class="skill-icon">🐍</span>
+                    <span class="skill-name">Python</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">⚡</span>
+                    <span class="skill-name">C / C++</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🌐</span>
+                    <span class="skill-name">HTML / CSS / JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🤖</span>
+                    <span class="skill-name">Machine Learning</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">📦</span>
+                    <span class="skill-name">Git & GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🚀 3. Projects 區塊 -->
+        <section class="card projects-card">
+            <h2 class="section-title">🚀 專案作品 Projects</h2>
+            <div class="project-list">
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <h3 class="project-title">DIC-1 Personal Page</h3>
+                        <span class="project-status">Completed</span>
+                    </div>
+                    <p class="project-desc">
+                        使用 HTML、CSS 與 JavaScript 製作的個人響應式網站，具備即時時鐘與動態問候功能，並發布於 GitHub Pages。
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">GitHub Pages</span>
+                    </div>
+                    <a href="https://github.com/susuannie/0916" target="_blank" class="project-link">
+                        查看 GitHub Repository →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 頁尾 -->
+        <footer class="footer">
+            <p>© 2026 Created by 蘇恩平 | Powered by Antigravity & GitHub Pages</p>
+        </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
