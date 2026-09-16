@@ -8,7 +8,7 @@
 
 A sleek, responsive personal showcase dashboard built with modern HTML5, Vanilla CSS, and JavaScript.
 
-![Showcase Preview](preview.png)
+<img width="913" height="436" alt="preview" src="https://github.com/user-attachments/assets/d23d4d15-4a99-4a0c-9d49-4fe6bc5a6315" />
 ## 📌 功能實現
 - **Profile**：包含個人頭像、姓名、科系專長與簡短自我介紹。
 - **Skills**：展示 Python, C/C++, Web 開發, Machine Learning 等技能。
